@@ -1930,7 +1930,8 @@
     },
     "class": {
       "type": "PATTERN",
-      "value": "\\.[_a-z0-9\\-]*[_a-zA-Z][_a-zA-Z0-9\\-]*"
+      "value": "\\.[_a-z0-9\\-]*[_a-zA-Z][_a-zA-Z0-9\\-]*",
+      "flags": "i"
     },
     "id": {
       "type": "PATTERN",
@@ -2389,4 +2390,3 @@
   "inline": [],
   "supertypes": []
 }
-
